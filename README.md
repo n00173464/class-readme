@@ -27,10 +27,22 @@ This project demonstrates the use of variables through multiple formates includi
 
 
 <ul>
- <li>Actors: Actors represent objects in your game world, such as characters, enemies, props, lights, and cameras. They are the primary entities that exist in a level and can be manipulated, interacted with, and controlled through code.</li>
- <li>Components: Components are modular units that provide specific behaviors and functionalities to Actors. They can handle tasks like rendering, physics, animation, collision detection, and more.</li>
+ <li>Actors represent objects in your game world, such as characters, enemies, props, lights, and cameras. They are the primary entities that exist in a level and can be manipulated, interacted with, and controlled through code.</li>
+ <li> Components are modular units that provide specific behaviors and functionalities to Actors. They can handle tasks like rendering, physics, animation, collision detection, and more.</li>
 </ul>
 <p>
  The World Outliner in the Unreal Editor allows you to visualize and manage all actors in your scene. You can use it to select actors in the outliner and manipulate actors using the viewport tools to move, rotate, or scale them.
  You can access components attached to Actors using Blueprints.
 </p>
+![actor](https://github.com/user-attachments/assets/528a918c-4a1f-4a93-8b3c-d8a995cb08e7)
+
+<h3>Referencing Other Scripts/Blueprints</h3>
+
+<p>
+ In Unreal Engine, you often need to make Blueprints communicate and interact with each other. This involves referencing objects or components within one Blueprint from another. 
+</p>
+
+<ul>
+ <li> Using Variables: The simplest method is to create a variable within one Blueprint that holds a reference to an instance of another Blueprint.</li>
+ <li>Using Events: Events provide a mechanism for Blueprints to communicate with each other without requiring direct references or interfaces. They allow one Blueprint to send a message to another Blueprint, which can then respond accordingly.</ul>
+
