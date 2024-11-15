@@ -19,3 +19,17 @@ This project demonstrates the use of variables through multiple formates includi
   <li>Boolean data type allows you to store either True or False. These 2 values can also be represented using numbers 0 and 1 respectively.</li>
  <li>String datatype allows you to store any text, it can be a number, name, place, message, special symbols, etc. You cannot do any numerical operations on this datatype like Integer and Float if you decide to store numeric values in a string datatype.</li>
 </ul>
+
+
+<h4>Accessing Game Objects/Actors and Components</h4>
+
+![outliner](https://github.com/user-attachments/assets/510322d2-03e2-4b41-ab6a-7f420dc17782)
+
+
+<p>
+Actors: Actors represent objects in your game world, such as characters, enemies, props, lights, and cameras. They are the primary entities that exist in a level and can be manipulated, interacted with, and controlled through code.
+Components: Components are modular units that provide specific behaviors and functionalities to Actors. They can handle tasks like rendering, physics, animation, collision detection, and more.
+
+ The World Outliner in the Unreal Editor allows you to visualize and manage all actors in your scene. You can use it to select actors in the outliner and manipulate actors using the viewport tools to move, rotate, or scale them.
+ You can access components attached to Actors using Blueprints.
+</p>
