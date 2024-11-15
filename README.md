@@ -21,15 +21,16 @@ This project demonstrates the use of variables through multiple formates includi
 </ul>
 
 
-<h4>Accessing Game Objects/Actors and Components</h4>
+<h3>Accessing Game Objects/Actors and Components</h3>
 
 ![outliner](https://github.com/user-attachments/assets/510322d2-03e2-4b41-ab6a-7f420dc17782)
 
 
+<ul>
+ <li>Actors: Actors represent objects in your game world, such as characters, enemies, props, lights, and cameras. They are the primary entities that exist in a level and can be manipulated, interacted with, and controlled through code.</li>
+ <li>Components: Components are modular units that provide specific behaviors and functionalities to Actors. They can handle tasks like rendering, physics, animation, collision detection, and more.</li>
+</ul>
 <p>
-Actors: Actors represent objects in your game world, such as characters, enemies, props, lights, and cameras. They are the primary entities that exist in a level and can be manipulated, interacted with, and controlled through code.
-Components: Components are modular units that provide specific behaviors and functionalities to Actors. They can handle tasks like rendering, physics, animation, collision detection, and more.
-
  The World Outliner in the Unreal Editor allows you to visualize and manage all actors in your scene. You can use it to select actors in the outliner and manipulate actors using the viewport tools to move, rotate, or scale them.
  You can access components attached to Actors using Blueprints.
 </p>
