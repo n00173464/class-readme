@@ -34,7 +34,9 @@ This project demonstrates the use of variables through multiple formates includi
  The World Outliner in the Unreal Editor allows you to visualize and manage all actors in your scene. You can use it to select actors in the outliner and manipulate actors using the viewport tools to move, rotate, or scale them.
  You can access components attached to Actors using Blueprints.
 </p>
-![actor](https://github.com/user-attachments/assets/528a918c-4a1f-4a93-8b3c-d8a995cb08e7)
+
+![actor](https://github.com/user-attachments/assets/a52daa04-719c-4812-85e4-45c6199442ca)
+
 
 <h3>Referencing Other Scripts/Blueprints</h3>
 
